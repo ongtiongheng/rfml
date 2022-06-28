@@ -228,7 +228,7 @@ def plot_acc_vs_spr(
 
     ax.plot(spr, acc_vs_spr)
 
-    ax.set_xlabel(r"$E_s/E_p$ (dB)")
+    ax.set_xlabel(r"$SNR$ (dB)")
     ax.set_ylabel("Classification Accuracy")
 
     # Left = "least intense attack" -> Right = "most intense attack"
